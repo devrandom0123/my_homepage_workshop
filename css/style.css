@@ -23,6 +23,7 @@ footer {
   height: 50px;
   background-color: #ccc;
   text-align: right;
+  line-height: 50px;
 }
 
 .container {
