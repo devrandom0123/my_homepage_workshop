@@ -1,0 +1,36 @@
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: tomato;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #ccc;
+  text-align: right;
+}
+
+.container {
+  max-width: 720px;
+}
+
+@media screen and (min-width: 720px) {
+  .container {
+    margin: 0 auto;
+  }
+}
