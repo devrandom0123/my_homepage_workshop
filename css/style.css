@@ -1,9 +1,17 @@
 body {
-	max-width: 600px;
 	margin: auto;
 	font-size: 20px;
 	line-height: 1.35;
 	font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+	max-width: 600px;
+	margin: auto;
+}
+
+header {
+	text-align: center;
 }
 
 img {
