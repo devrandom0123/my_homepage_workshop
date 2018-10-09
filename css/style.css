@@ -1,35 +1,29 @@
+html,
 body {
-	margin: auto;
-	font-size: 20px;
-	line-height: 1.35;
-	font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
- main {
-	max-width: 600px;
-	margin: auto;
-}
- header {
-	text-align: center;
-}
- img {
-	max-width: 100%;
+ h1, h2 {
+  color: #1EC7A2;
 }
  h1 {
-	border-bottom: 5px solid black;
+  font-size: 40px;
 }
- h2 {
-	color: #CE1141;
-}
- .highlight {
-	background-color: #CE1141;
-	color: white;
-	padding: 4px;
+ img {
+  max-width: 100%;
 }
  footer {
-	color: white;
-	background-color: black;
-	padding: 8px;
-	text-align: right;
-	font-size: 14px;
-	line-height: 1;
-} 
+  height: 50px;
+  background-color: #999;
+  color: white;
+  text-align: right;
+  line-height: 50px;
+  padding-right: 30px;
+}
+ .container {
+  max-width: 720px;
+}
+ @media screen and (min-width: 720px) {
+  .container {
+    margin: 0 auto;
+  }
+}
